@@ -3,7 +3,7 @@ require 'json'
 
 module Etherscan
   class Client
-    URL     = 'https://api.etherscan.io/'.freeze
+    URL     = 'https://api.bscscan.com/'.freeze
     HEADERS = {'Content-Type' => 'application/json', 'Accept' => 'application/json'}.freeze
 
     attr_reader :key, :url, :user_agent, :headers, :raise_exceptions
